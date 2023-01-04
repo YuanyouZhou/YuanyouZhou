@@ -1,0 +1,51 @@
+:root {
+
+	/* Theme-colors */
+
+	--theme-color-sky					: #bdd0f1;
+
+	--theme-color-sea					: #3b60a0;
+
+	--theme-color-paper					: #f5f6f8;
+
+	--theme-color-sky-lighter			: #eff3ff;
+
+	/* Base */
+
+	--base-font-size					: 16px;
+	--theme-color 						: var(--theme-color-sky);
+	--selection-color					: var(--theme-color-sky);
+
+	/* Cover */
+
+	--cover-heading-color				: var(--theme-color-sea);
+
+	/* Markdown Content */
+
+	--content-max-width					: 63em;
+	--blockquote-padding				: 0.6em;
+	--code-theme-background				: var(--theme-color-paper);
+	--code-inline-background			: var(--theme-color-paper);
+	--heading-color						: var(--theme-color-sea);
+	--link-color						: var(--theme-color-sea);
+	--link-color--hover					: var(--theme-color-sky);
+
+	/* Sidebar style */
+
+	--sidebar-background				: var(--theme-color-paper);
+	--sidebar-width						: 18em;
+	--sidebar-border-color 				: var(--theme-color-sky);
+	--sidebar-name-color				: var(--theme-color-sea);
+	--sidebar-name-font-size			: 25px;
+
+	/* Styles of the plugins */
+
+	--copycode-background				: var(--theme-color-sky-lighter);
+	--copycode-color					: var(--base-color);
+
+	/* Sidebar toggle */
+
+	--sidebar-toggle-width				: 0px;
+	--sidebar-toggle-icon-width			: 0px;
+
+}
