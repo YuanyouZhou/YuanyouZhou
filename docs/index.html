@@ -1,28 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>远游舟空间</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- Theme Configuration -->
+  <!-- We use the theme simple as the basis and uses the file YuanyouZhou.css to do some decoration -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <link rel="stylesheet" type="text/css" href="YuanyouZhou.css">
+  <!-- References can be found at https://jhildenbiddle.github.io/docsify-themeable/#/ -->
 </head>
 <body>
-  <div id="app"></div>
+  <div id="app">正在加载中……</div>
   <script>
     window.$docsify = {
-      name: '',
-      repo: ''
+      name: '远游舟',
+      loadSidebar: true,
+      auto2top: true,
+      maxLevel: 4,
+      subMaxLevel: 2,
+      copyCode: {
+        buttonText : 'Copy',
+        errorText  : 'Error',
+        successText: 'Copied!',
+      }
     }
   </script>
-  <script>
-    window.$docsify = {
-      loadSidebar: true
-    }
-  </script>
+
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- Here're the customization for the doc -->
+
+  <!-- <script>
+    window.$docsify = {
+      logo: '/_media/logo.svg',
+    }
+  </script> -->
+
+  <!-- Language highlighting via prism -->
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+
+  <!-- Copy code plugin -->
+  <script src="https://unpkg.com/docsify-copy-code"></script>
+
+  <!-- Zoom image plugin -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+
+  <!-- Katex plugin for math rendering -->
+  <!--
+  <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
+  <script src="//cdn.jsdelivr.net/npm/marked@4"></script>
+
+  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  -->
+
+  <!-- Docsify pagination plugin -->
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
 </body>
 </html>

@@ -1,2 +1,3 @@
-* [主页](/)
-* [最近消息](/info/WelcomeToYuanyouZhou.md "起航，远游舟！")
+* [新文](新文/README.md)
+* [最近消息](最近消息/README.md)
+* [关于](关于/远游舟-简介.md)
