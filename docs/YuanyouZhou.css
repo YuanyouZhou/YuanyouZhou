@@ -15,6 +15,7 @@
 	--base-font-size					: 16px;
 	--theme-color 						: var(--theme-color-sky);
 	--selection-color					: var(--theme-color-sky);
+	--mark-background					: var(--theme-color-paper);
 
 	/* Cover */
 
@@ -22,13 +23,16 @@
 
 	/* Markdown Content */
 
-	--content-max-width					: 63em;
+	--content-max-width					: 61em;
 	--blockquote-padding				: 0.6em;
 	--code-theme-background				: var(--theme-color-paper);
 	--code-inline-background			: var(--theme-color-paper);
 	--heading-color						: var(--theme-color-sea);
 	--link-color						: var(--theme-color-sea);
 	--link-color--hover					: var(--theme-color-sky);
+
+	--heading-margin                    : 2rem 0 0;
+	--heading-h1-margin					: 2.5rem 0 0;
 
 	/* Sidebar style */
 
@@ -41,11 +45,15 @@
 	/* Styles of the plugins */
 
 	--copycode-background				: var(--theme-color-sky-lighter);
-	--copycode-color					: var(--base-color);
+	--copycode-color					: var(--theme-color-sea);
 
 	/* Sidebar toggle */
 
 	--sidebar-toggle-width				: 0px;
 	--sidebar-toggle-icon-width			: 0px;
+
+	/* Zoom image plugin */
+
+	--zoomimage-overlay-background		: rgba(0, 0, 0, 0.4);
 
 }
