@@ -1,5 +1,4 @@
-* [起始页](/)
-* [开发工具索引](/新文/开发工具索引.md)
+* [起始页<img width='24' height='24' src="./_media/icon.png"/>](/)
 
 - **相关链接**
 * [<img width='16' height='16' src="./_media/github.svg"/>Github](https://github.com/YuanyouZhou/YuanyouZhou)
