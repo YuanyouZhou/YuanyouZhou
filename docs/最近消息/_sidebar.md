@@ -1,5 +1,6 @@
 * [起始页<img width='28' height='28' src="./_media/icon.png"/>](/)
-* [Git与GitHub的入门指南](/新文/Git与GitHub的入门指南.md)
+* [欢迎](/最近消息/欢迎来到远游舟.md)
+* [近期工作](/最近消息/近期工作事宜.md)
 
 - **相关链接**
 * [<img width='17' height='17' src="./_media/github.svg"/>Github](https://github.com/YuanyouZhou/YuanyouZhou)
